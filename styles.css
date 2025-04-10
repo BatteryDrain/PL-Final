@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+nav {
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+nav a {
+    background-color: rgb(85, 176, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: auto;
+    text-align: center;
+    border-radius: 35px;
+    text-decoration: none;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    max-width: 100ch;
+}
+
+li {
+max-width: 100ch;
+}
+
+span {
+    font-weight: bold;
+}
+
+#notes {
+    color: grey;
+}
+
+.review {
+    font-style: italic;
+}
+
+@media screen and (max-width: 850px) {
+
+}
