@@ -19,9 +19,14 @@ nav a {
     border-radius: 35px;
     text-decoration: none;
     margin: 0;
+    max-width: 300px;
 }
 
 h1 {
+    text-align: center;
+}
+
+h2 {
     text-align: center;
 }
 
