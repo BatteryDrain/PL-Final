@@ -6,6 +6,12 @@ body {
     margin: 0;
 }
 
+#content {
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
 nav {
     width: 100vw;
     padding-top: clamp(0px, calc(100vw - 520px), 540px);
@@ -74,6 +80,9 @@ span {
     font-style: italic;
 }
 
-@media screen and (max-width: 850px) {
-
+@media screen and (max-width: 500px) {
+    #content {
+        width: 100vw;
+        margin-left: 10px;
+    }
 }
