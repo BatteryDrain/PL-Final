@@ -2,25 +2,28 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
+
 nav {
-    /* display: flex; */
+    padding-top: calc(100vw - 640px);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
     grid-gap: 10px;
 }
 
-header{
+header {
     background-image: url(assets/hero.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
-    height: 912px;
-
+    height: fit-content;
 }
 
 header img {
-    margin: 0,auto;
-
+    width: 50vw;
+    height: auto;
 }
 
 nav a {
