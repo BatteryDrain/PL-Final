@@ -102,7 +102,7 @@ span {
 
 @media screen and (max-width:800px) {
     nav {
-        padding-top: clamp(0px, calc(70vw - 100px), 940px);
+        padding-top: clamp(0px, calc(70vw - 90px), 940px);
     }
 }
 
