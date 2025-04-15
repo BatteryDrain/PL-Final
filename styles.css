@@ -14,7 +14,7 @@ body {
 
 nav {
     width: 100vw;
-    padding-top: clamp(0px, calc(100vw - 720px), 540px);
+    padding-top: clamp(0px, calc(100vw - 620px), 540px);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
@@ -98,6 +98,12 @@ span {
 
 .review {
     font-style: italic;
+}
+
+@media screen and (max-width:800px) {
+    nav {
+        padding-top: clamp(0px, calc(70vw - 100px), 940px);
+    }
 }
 
 @media screen and (max-width: 500px) {
