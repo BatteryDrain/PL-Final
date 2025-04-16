@@ -150,7 +150,7 @@ section.first {
 
 @media screen and (max-width:828px) {
     nav {
-        padding-top: clamp(0px, calc(55vw - 30px), 940px);
+        padding-top: clamp(0px, calc(55vw - 45px), 940px);
     }
     #content {
         width: 100vw;
