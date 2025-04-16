@@ -154,5 +154,7 @@ section.first {
     }
     #content {
         width: 100vw;
+        margin-left: 0px;
+        /* I know 0 margin seems stupid but without it my website reacts srangly on chrome to some screen sizes */
     }
 }
