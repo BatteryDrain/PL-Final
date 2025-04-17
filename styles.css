@@ -135,11 +135,12 @@ section {
     background-color: rgba(69, 135, 157, 0.355);
     border-radius: 35px;
     padding: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     grid-column: 1 / span 6;
 }
 
 section.first {
+    margin-top: 20px;
     grid-column: 2 / span 4;
 }
 
