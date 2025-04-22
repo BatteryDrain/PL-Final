@@ -148,6 +148,8 @@ section.first {
     border-radius: 35px;
     margin-bottom: 20px;
     grid-column: 2 / span 4;
+    max-width: 100vw;
+    height: auto;
 }
 
 @media screen and (max-width:828px) {
@@ -158,5 +160,11 @@ section.first {
         width: 100vw;
         margin-left: 0px;
         /* I know 0 margin seems stupid but without it my website reacts srangly on chrome to some screen sizes */
+    }
+
+    .picture {
+        width: 100vw;
+        height: auto;
+        margin-right: 10px;
     }
 }
