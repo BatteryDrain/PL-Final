@@ -144,6 +144,12 @@ section.first {
     grid-column: 2 / span 4;
 }
 
+.picture {
+    border-radius: 35px;
+    margin-bottom: 20px;
+    grid-column: 2 / span 4;
+}
+
 @media screen and (max-width:828px) {
     nav {
         padding-top: clamp(0px, calc(55vw - 45px), 940px);
